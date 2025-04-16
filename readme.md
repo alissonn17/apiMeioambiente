@@ -1,4 +1,4 @@
-# API TECNÓLOGIA E MEIO-AMBIENTE V1.0.0
+# API TECNÓLOGIA E MEIO-AMBIENTE V1.0.1 Release
 
 #### Esta API contém:
 
@@ -262,15 +262,22 @@ Retorna o parâmetro:
 
 ## Rodando os testes
 
-- ### Para rodar os testes, rode o seguinte comando no terminal primeiro:
+ ### Para rodar os testes, faça os seguintes passos:
+  
+  - Digite no terminal aberto na sua pasta principal, o segunte comando para instalar as dependencias:
 
 ```bash
   npm i 
 ```
-
-- #### Ápos rodar este link no navegador:
+- A seguir escreva:
+  
+```bash
+  npm run dev
+```  
+- Ápos o passo anterior, pode rodar este link no navegador:
    - http://localhost:3000
 
+### Apartir daqui é só testar os métodos disponíveis.
 
 ## Funcionalidades
 
