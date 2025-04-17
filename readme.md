@@ -180,7 +180,7 @@ Retorna o parâmetro:
 }
 ```
 
-### Retorna todas os paises:
+### Retorna todos os paises:
 
 ```http
   GET /country/
@@ -202,7 +202,7 @@ Retorna o parâmetro:
 }
 ```
 
-#### Retorna todas os paises com seus destaques:
+#### Retorna todos os paises com seus destaques:
 
 ```http
   GET /country/destaque
@@ -218,7 +218,7 @@ Retorna o parâmetro:
 }
 ```
 
-#### Retorna todas os paises com suas desquições:
+#### Retorna todos os paises com suas descrições:
 
 ```http
   GET /country/descricao
@@ -233,7 +233,7 @@ Retorna o parâmetro:
     }
 }
 ```
-#### Retorna o país com nome parâmetro:
+#### Retorna o país pelo parâmetro:
 
 ```http
   GET /country/:nome
