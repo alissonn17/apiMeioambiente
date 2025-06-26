@@ -1,4 +1,4 @@
-// IMPORTANDO DADOS CIY
+// IMPORTANDO DADOS CITY
 import { info } from "../data/main.js";
 
 
@@ -6,7 +6,7 @@ import { info } from "../data/main.js";
 class MainController{    
     // PEGA HABITANTES
     pegaInfo(req,res){
-        res.json({ Main:  info });
+        res.status(200).json({ Main:  info });
     }
 }
 
